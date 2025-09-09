@@ -5,40 +5,35 @@
   "logoUrl": "https://www.gstatic.com/datastudio/visualization/GoogleDataStudio.png",
   "supportUrl": "https://tuweb.com",
   "devMode": true,
-  "resources": [
-    {
-      "type": "JS",
-      "url": "https://cdn.jsdelivr.net/npm/apexcharts"
-    },
-    {
-      "type": "JS",
-      "url": "https://angello-adops.github.io/imagenes/index.js"
-    }
-  ],
   "components": [
     {
       "id": "gauge_animado",
       "name": "Gauge Animado",
       "iconUrl": "https://www.gstatic.com/datastudio/visualization/GoogleDataStudio.png",
       "description": "Gauge con animación al cargar",
+      "script": [
+        "https://cdn.jsdelivr.net/npm/apexcharts",
+        "https://angello-adops.github.io/imagenes/index.js"
+      ],
+      "stylesheet": [],
       "supportsInteractive": true,
-      "supportsDrilldown": false
-    }
-  ],
-  "data": {
-    "tables": [
-      {
-        "id": "DEFAULT",
-        "name": "Default",
-        "columns": [
+      "supportsDrilldown": false,
+      "data": {
+        "tables": [
           {
-            "id": "metric",
-            "name": "Métrica",
-            "type": "NUMBER",
-            "concept": "METRIC"
+            "id": "DEFAULT",
+            "name": "Default",
+            "columns": [
+              {
+                "id": "metric",
+                "name": "Métrica",
+                "type": "NUMBER",
+                "concept": "METRIC"
+              }
+            ]
           }
         ]
       }
-    ]
-  }
+    }
+  ]
 }
