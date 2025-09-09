@@ -5,13 +5,23 @@
   "logoUrl": "https://www.gstatic.com/datastudio/visualization/GoogleDataStudio.png",
   "supportUrl": "https://tuweb.com",
   "resources": [
-  {
-    "type": "JS",
-    "url": "https://cdn.jsdelivr.net/npm/apexcharts"
-  },
-  {
-    "type": "JS",
-    "url": "https://angello-adops.github.io/imagenes/index.js"
-  }
+    {
+      "type": "JS",
+      "url": "https://cdn.jsdelivr.net/npm/apexcharts"
+    },
+    {
+      "type": "JS",
+      "url": "https://angello-adops.github.io/imagenes/index.js"
+    }
+  ],
+  "components": [
+    {
+      "id": "gauge_animado",
+      "name": "Gauge Animado",
+      "iconUrl": "https://www.gstatic.com/datastudio/visualization/GoogleDataStudio.png",
+      "description": "Gauge con animación al cargar",
+      "supportsInteractive": true,
+      "supportsDrilldown": false
+    }
   ]
 }
