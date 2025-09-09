@@ -4,6 +4,7 @@
   "description": "Gauge con animación al cargar",
   "logoUrl": "https://www.gstatic.com/datastudio/visualization/GoogleDataStudio.png",
   "supportUrl": "https://tuweb.com",
+  "devMode": true,
   "resources": [
     {
       "type": "JS",
@@ -23,5 +24,21 @@
       "supportsInteractive": true,
       "supportsDrilldown": false
     }
-  ]
+  ],
+  "data": {
+    "tables": [
+      {
+        "id": "DEFAULT",
+        "name": "Default",
+        "columns": [
+          {
+            "id": "metric",
+            "name": "Métrica",
+            "type": "NUMBER",
+            "concept": "METRIC"
+          }
+        ]
+      }
+    ]
+  }
 }
